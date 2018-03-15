@@ -1,0 +1,5 @@
+{
+  "url": "https://gateway.watsonplatform.net/natural-language-understanding/api",
+  "username": "<username>",
+  "password": "<password>"
+}
