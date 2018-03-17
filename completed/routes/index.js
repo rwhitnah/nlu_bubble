@@ -10,7 +10,7 @@ const features = {
   concepts: {},
   sentiment: {},
   entities: {
-    model_id: 'en-us-tir'
+    model: 'en-us-tir'
   },
   emotion: {}
 }

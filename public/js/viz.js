@@ -353,27 +353,4 @@
     });
   });
 
-  $(function() {
-    $("#upload-form").submit(function( event ) {
-      event.preventDefault();
-      
-      var formData = new FormData();
-      formData.append('file', $('#file')[0].files[0]);
-
-      $.ajax({
-        url : '/fileUpload',
-        type : 'POST',
-        data : formData,
-        processData: false,
-        contentType: false,
-        success : function(data) {
-          console.log(data);
-          json = data;
-          active = true;
-          drawBubbles("#conceptsTab");
-        }
-      });
-    });
-  });
-
 }).call(this);
